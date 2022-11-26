@@ -16,7 +16,7 @@ export const getProducts =
     try {
       dispatch({ type: ALL_PRODUCTS_REQUEST });
 
-      let link=`https://artelak.up.railway.app/api/products?keyword=${keyword}&page=${currentPage}&price[gte]=${price[0]}&price[lte]=${price[1]}`
+      let link=`https://sprint4-back-production.up.railway.app/api/products?keyword=${keyword}&page=${currentPage}&price[gte]=${price[0]}&price[lte]=${price[1]}`
 
       const { data } = await axios.get(link);
 
@@ -43,7 +43,7 @@ export const getProductDetails = (id) => async (dispatch) => {
     dispatch({ type: PRODUCT_DETAILS_REQUEST });
 
     const { data } = await axios.get(
-      `https://artelak.up.railway.app/api/product/${id}`
+      `https://sprint4-back-production.up.railway.app/api/product/${id}`
     );
 
     {

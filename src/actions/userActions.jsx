@@ -21,7 +21,7 @@ export const login = (email, password) => async (dispatch) => {
       },
     };
     const { data } = await axios.post(
-      "https://artelak.up.railway.app/api/user/login",
+      "https://sprint4-back-production.up.railway.app/api/user/login",
       { email, password },
       config
     );
