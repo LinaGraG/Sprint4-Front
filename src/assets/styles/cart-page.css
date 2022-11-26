@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:100,200,300,400,500,600,700,800,900');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans',sans-serif;
+}
+
+:root {
+  --artelak-blue: #12284c;
+  --artelak-lightblue: #dce0e5;
+  --artelak-ocre: #cc9e6a;
+  --artelak-lightocre: #f2d9c7;
+}
+
+.button__group{
+  color: var(--artelak-blue);
+}
+
+.cart__page-btn button a{
+  color: #fff;
+}
+
+.addTOCart__btn {
+  border: none;
+  padding: 7px 25px;
+  background: var(--artelak-blue);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 5px;
+  width: 180px;
+}
+
+.addTOCart__btn:hover {
+  background: var(--artelak-ocre);
+  transition: 0.3s;
+}
+
+.cart__page-btn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.cart__subtotal{
+  font-weight: bolder;
+}

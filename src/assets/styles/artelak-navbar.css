@@ -1,0 +1,36 @@
+.appbar__wrapper {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.appbar__logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.appbar__search {
+  display: flex;
+  justify-content: center;
+}
+
+.appbar__icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 750px) {
+  .appbar__wrapper {
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .appbar__search {
+    display: none;
+  }
+}
