@@ -21,7 +21,8 @@ export const login = (email, password) => async (dispatch) => {
       },
     };
     const { data } = await axios.post(
-      "https://sprint4-back-production.up.railway.app/api/user/login",
+      //"https://sprint4-back-production.up.railway.app/api/user/login",
+      "http://localhost:4000/api/user/login",
       { email, password },
       config
     );
@@ -49,7 +50,7 @@ export const register = (userData) => async (dispatch) => {
       },
     };
     const { data } = await axios.post(
-      "/api/usuario/registro",
+      "/api/user/register",
       userData,
       config
     );

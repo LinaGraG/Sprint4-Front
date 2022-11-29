@@ -82,6 +82,13 @@ const rows = [
     26182,
     1
   ),
+  createData(
+    6,
+    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
+    "Queso tipo mozzarella",
+    26182,
+    1
+  ),
 ];
 
 const Cart = () => {
@@ -149,14 +156,14 @@ const Cart = () => {
           </TableContainer>
           <div className="button__group mt-4">
             <h4>
-              Subtotal: {" "}
-              <span className="cart__subtotal" >
+              Subtotal:{" "}
+              <span className="cart__subtotal">
                 <CurrencyFormat
                   value="10000"
                   displayType={"text"}
                   thousandSeparator={true}
                   prefix={"$"}
-                  style={{color: '#cc9e6a'}}
+                  style={{ color: "#cc9e6a" }}
                 />
               </span>
             </h4>
@@ -165,10 +172,14 @@ const Cart = () => {
             </p>
             <div className="cart__page-btn">
               <button className="addTOCart__btn me-4">
-                <Link to="/products" style={{ textDecoration: 'none' }}>Seguir comprando</Link>
+                <Link to="/products" style={{ textDecoration: "none" }}>
+                  Seguir comprando
+                </Link>
               </button>
               <button className="addTOCart__btn">
-                <Link to="/checkout" style={{ textDecoration: 'none' }}>Proceder al pago</Link>
+                <Link to="/checkout" style={{ textDecoration: "none" }}>
+                  Proceder al pago
+                </Link>
               </button>
             </div>
           </div>

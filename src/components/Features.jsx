@@ -133,7 +133,7 @@ const Features = () => {
                 </chakra.h1>
               </Flex>
               <chakra.p lineHeight="tall" color="brand.100" mt={3}>
-                Nos encargamos de realizar seguimiento desde la tu solicitud de
+                Nos encargamos de realizar seguimiento desde a tu solicitud de
                 pedido, hasta que llegue a la puerta de tu casa.
               </chakra.p>
             </Box>

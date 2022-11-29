@@ -20,7 +20,7 @@ import CurrencyFormat from "react-currency-format";
 import "../../assets/styles/product.css";
 
 import { Button } from "semantic-ui-react";
-import 'semantic-ui-css/semantic.min.css'
+import "semantic-ui-css/semantic.min.css";
 import { Link } from "react-router-dom";
 
 import { FaShoppingCart } from "react-icons/fa";
@@ -252,13 +252,11 @@ const Product = () => {
                                   <i className="fa fa-star"></i>
                                 </li>
                               </ul>
-
                               <textarea
                                 name="review"
                                 id="review"
                                 className="form-control mt3"
                               ></textarea>
-
                               <button
                                 className="btn my-3 float-right review-btn px-4 text-white"
                                 data-dismiss="modal"

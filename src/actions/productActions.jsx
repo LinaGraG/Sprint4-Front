@@ -43,7 +43,8 @@ export const getProductDetails = (id) => async (dispatch) => {
     dispatch({ type: PRODUCT_DETAILS_REQUEST });
 
     const { data } = await axios.get(
-      `https://sprint4-back-production.up.railway.app/api/product/${id}`
+      //`https://sprint4-back-production.up.railway.app/api/product/${id}`
+      `http://localhost:4000/api/product/${id}`,
     );
 
     {
