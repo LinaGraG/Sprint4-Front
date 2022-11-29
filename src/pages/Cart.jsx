@@ -49,44 +49,44 @@ function createData(id, image, productName, price, quantity) {
 const rows = [
   createData(
     1,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182,
+    "../images/products/postres_y_helados/Helado_artesanal_Chocolate.png",
+    "Postres y helados",
+    19370,
     1
   ),
   createData(
     2,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182,
+    "../images/products/postres_y_helados/Leche_condensada.png",
+    "Postres y helados",
+    4325,
     1
   ),
   createData(
     3,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182,
+    "../images/products/quesos_semi-maduros/Queso_gouda.png",
+    "Quesos_semi-maduros",
+    20867,
     1
   ),
   createData(
     4,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182,
+    "../images/products/quesos_semi-maduros/Queso_tilsit.png",
+    "Quesos_semi-maduros",
+    17490,
     1
   ),
   createData(
     5,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182,
+    "../images/products/postres_y_helados/Arequipe-250g.png",
+    "Postres y helados",
+    9900,
     1
   ),
   createData(
     6,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182,
+    "../images/products/leche_y_yogures/Leche_Semi-descremada 1lt.png",
+    "Leche y yoguress",
+    6900,
     1
   ),
 ];

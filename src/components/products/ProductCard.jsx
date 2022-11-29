@@ -33,7 +33,7 @@ const StyledButton = styled(Button, {
 
 const ProductCard = ({
   id,
-  sku,
+ 
   title,
   subtitle,
   image,

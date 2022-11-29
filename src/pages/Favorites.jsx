@@ -55,27 +55,33 @@ const rows = [
   ),
   createData(
     2,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182
+    "../images/products/quesos_frescos/Queso_tipo_campesino-Entero_500gr.png",
+    "Queso campesino",
+    16499
   ),
   createData(
     3,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182
+    "../images/products/quesos_frescos/Queso_tipo_Cream cheese_220gr.png",
+    "Quesos frescos",
+    11249
   ),
   createData(
     4,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182
+    "../images/products/leche_y_yogures/Leche_Semi-descremada 2lt.png",
+    "Leche y yoguress",
+    13800
   ),
   createData(
     5,
-    "../images/products/quesos_frescos/Queso_tipo_mozzarella-Tajado_500gr.png",
-    "Queso tipo mozzarella",
-    26182
+    "../images/products/postres_y_helados/Helado_artesanal_Vainilla.png",
+    "Postres y helados",
+    17852
+  ),
+  createData(
+    6,
+    "../images/products/postres_y_helados/Helado_artesanal_Cafe.png",
+    "Postres y helados",
+    17852
   ),
 ];
 

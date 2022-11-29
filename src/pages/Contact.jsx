@@ -30,7 +30,7 @@ import { Link as ReachLink } from "react-router-dom";
 const contactOptions = [
   {
     label: "Horario",
-    value: "Lunes a viernes de 8:00 am a 5:30 pm",
+    value: "Lunes a Viernes de 8:00 am a 5:30 pm",
     icon: MdSchedule,
   },
   {
